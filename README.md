@@ -1,6 +1,14 @@
 # Gnatt
 
-[![Stable](https://img.shields.io/badge/docs-stable-blue.svg)](https://grahamedwards.github.io/Gnatt.jl/stable/)
-[![Dev](https://img.shields.io/badge/docs-dev-blue.svg)](https://grahamedwards.github.io/Gnatt.jl/dev/)
+[![Docs](https://img.shields.io/badge/docs-dev-blue.svg)](https://grahamedwards.github.io/Gnatt.jl/dev/)
 [![Build Status](https://github.com/grahamedwards/Gnatt.jl/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/grahamedwards/Gnatt.jl/actions/workflows/CI.yml?query=branch%3Amain)
-[![Coverage](https://codecov.io/gh/grahamedwards/Gnatt.jl/branch/main/graph/badge.svg)](https://codecov.io/gh/grahamedwards/Gnatt.jl)
+
+🦟 🦟 For all your Gantt chart needs 🦟 🦟
+
+
+For each task that you need to include on your chart, create a `Job` instance, with information like the `start` date, the `stop` date, the task's `name`, the `lead`ing user/PI/party, and any other relevant `detail`s. 
+
+Then, plop these bad boys into the convenience function `ganttify` to produce a NamedTuple that you can easily deposit into the [`Makie`](https://docs.makie.org/stable/)'s [barplot](https://docs.makie.org/stable/reference/plots/barplot#barplot) function. 
+
+
+### Example coming eventually...
